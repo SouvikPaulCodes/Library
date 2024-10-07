@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Papyrus', 'Copperplate', 'Brush Script MT', fantasy, cursive;
+    font-size: 40px;
+}
+
+.new {
+    background-color: rgb(94, 255, 94);
+    width: 10vw;
+    height: 6vh;
+    border-radius: 10px;
+    font-size: 20px;
+    align-self: center;
+}
+
+dialog {
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.books {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#card {
+    font-family: ;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+}
+
+.cardButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#status, #remove {
+    border-radius: 7px;
+    font-size: 15px;
+}
